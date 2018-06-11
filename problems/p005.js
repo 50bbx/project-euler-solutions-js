@@ -81,5 +81,4 @@ function getListOfPrimeUnder(num) {
   return arr
 }
 
-console.log(findSmallestEvenlyDivisible(10))
 console.log(findSmallestEvenlyDivisible(20))
