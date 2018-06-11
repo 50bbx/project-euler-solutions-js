@@ -39,5 +39,4 @@ function isPalindrome(num) {
 
 }
 
-
 console.log(getBiggestPalindrome())

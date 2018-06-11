@@ -26,9 +26,8 @@ function* fibonacciUntil(max) {
 
 const gen = fibonacciUntil(4*1000000)
 
-let goOn = true
 let sum = 0
-while(goOn) {
+while(true) {
   const {value, done} = gen.next()
   if(done) {
     break
@@ -39,4 +38,3 @@ while(goOn) {
 }
 
 console.log(sum)
-
