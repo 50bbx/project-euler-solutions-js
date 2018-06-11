@@ -35,5 +35,4 @@ function isPrime(num) {
   return true
 }
 
-console.log(getNthPrime(6))
 console.log(getNthPrime(10001))
