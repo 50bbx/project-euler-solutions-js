@@ -31,6 +31,4 @@ function squareOfSum(num) {
   return Math.pow(sum, 2)
 }
 
-
-console.log(sumSquareDifference(10))
 console.log(sumSquareDifference(100))
