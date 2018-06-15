@@ -1,3 +1,14 @@
+/* 
+ * Solution to Project Euler problem 11
+ * 
+ * You can find the problem here: https://projecteuler.net/problem=11
+ * 
+ * This source code is licensed under the GNU v3 GENERAL PUBLIC LICENSE found in the
+ * LICENSE file in the root directory of this source tree.
+ * 
+ * https://github.com/50bbx/project-euler-solutions-js
+ */
+
 const square =  ['08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08',
                 '49 49 99 40 17 81 18 57 60 87 17 40 98 43 69 48 04 56 62 00',
                 '81 49 31 73 55 79 14 29 93 71 40 67 53 88 30 03 49 13 36 65',
@@ -55,7 +66,6 @@ for(let j = 0; j < arr.length; j++) {
         }
     
         //secondary diagonal
-
         if(j+3 < arr[i].length - 1 && i-3 >= 0) {
             const prod = firstFactor * arr[j+1][i-1] * arr[j+2][i-2] * arr[j+3][i-3]
             if(prod > biggerProduct) {
