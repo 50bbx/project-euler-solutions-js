@@ -9,7 +9,6 @@
  * https://github.com/50bbx/project-euler-solutions-js
  */
 
-
 function transformOdd(n) {
     return 3*n+1
 }
